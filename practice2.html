@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <style>
+    main{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container{
+      grid-column: 2/3;
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      grid-template-rows: repeat(6,1fr);
+      margin: 20px;
+
+    }
+    .ai{
+      background-color:  hsl(39, 100%, 71%);
+      grid-row: 1/4;
+      grid-column: 1/2;
+    }
+    .quicher {
+      color:  hsl(256, 67%, 59%)
+    }
+    .ai >img {
+      
+    }
+  </style>
+</head>
+<body>
+  <div class="attribution">
+    Coded by <a href="#">sania</a>.
+  </div>
+  <main>
+    <div class="container">
+      <div class="ai">
+        <p>Creat and Schedule content <span class="quicker">quicker</span></p>
+        <img src="illustration-create-post.webp" alt="post">
+       </div>
+      <div class="social">
+        <p>Social Media 10x <br> Faster with AI</p>
+        <img src="illustration-five-stars.webp" alt="star">
+        <p>Over 4,000 5-star reviews</p>
+      </div>
+      <div class="schedule">
+        <p>Schedule to social media.</p>
+        <img src="illustration-schedule-posts.webp" alt="Schedule media">
+        <p>Optimize post timings to publish content at the perfect time for your audience.</p>
+      </div>
+      <div class="platforms">
+        <img src="illustration-multiple-platforms.webp" alt="platforms">
+        <p>Manage multiple accounts and platforms.</p>
+      </div>
+      <div class="posting">
+        <p>Maintain a consistent posting schedule.</p>
+        <img src="illustration-consistent-schedule.webp" alt="schedule">
+      </div>
+      <div class="content">
+        <p>Write your content using AI.</p>
+        <img src="illustration-ai-content.webp" alt="content">
+      </div>
+      <div class="audience">
+        <p><span>>56%</span><br>faster audience growth</p>
+        <img src="illustration-audience-growth.webp" alt=" audience">
+      </div>
+      <div class="followers">
+        <img src="illustration-grow-followers.webp" alt="followers">
+        <p>Grow followers with non-stop content.</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
