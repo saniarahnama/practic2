@@ -17,6 +17,33 @@
         margin: 4% !important;
       
       } 
+      .schedule{
+        padding: 10px !important;
+       
+      }
+      .schedules{
+        display: flex;
+        justify-content: center;
+      }
+      .scheduleS >picture >img{
+        width: 95%;
+      }
+      .schedulep2{
+        text-align: center;
+      }
+      .followers{
+        display: flex;
+        flex-direction: column;
+
+      }
+      .followerd1{
+        width: 60%;
+      }
+      .followerd2{
+        text-align: center;
+        font: 0.999em sans-serif;
+      }
+      
      }  
     body{
       width: 100%;
@@ -106,7 +133,7 @@
       justify-content: flex-end;
     }
   
-    .scheduleS > img{
+    .scheduleS >picture> img{
       border-radius: 10px 0px 0px 10px;
       padding: 0px;
       margin: 0px;
@@ -248,7 +275,11 @@
       </div>
       <div class="schedule">
         <p class="schedulep1" >Schedule to social media.</p>
-        <div class="scheduleS"><img src="edited.webp.jpg" alt="Schedule media"></div>
+        <div class="scheduleS">
+          <picture>
+          <source srcset="illustration-schedule-posts.webp" media="(max-width: 375px)">
+          <img src="edited.webp.jpg" alt="Schedule media"></picture>
+        </div>
         <p class="schedulep2">Optimize post timings to publish content at the perfect time for your audience.</p>
       </div>
      
